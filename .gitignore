@@ -1,0 +1,7 @@
+coverage/
+
+.idea/workspace.xml
+
+node_modules/
+
+build/

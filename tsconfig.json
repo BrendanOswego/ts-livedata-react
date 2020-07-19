@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "jsx": "react",
+    "strict": true,
+    "declaration": true,
+    "baseUrl": "./src",
+    "outDir": "build",
+    "rootDir": "./src"
+  },
+  "exclude": [
+    "./src/test/**/*.spec.ts",
+    "./src/test/**/*.spec.tsx"
+  ]
+}
