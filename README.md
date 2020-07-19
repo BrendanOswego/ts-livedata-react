@@ -1,4 +1,5 @@
 ## TS LiveData React Library
+[![npm version](https://badge.fury.io/js/%40ts-livedata%2Freact.svg)](https://badge.fury.io/js/%40ts-livedata%2Freact)
 [![CircleCI](https://img.shields.io/circleci/project/github/BrendanOswego/ts-livedata-react/master.svg)](https://circleci.com/gh/BrendanOswego/ts-livedata-react/tree/master)
 
 ### About
