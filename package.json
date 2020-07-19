@@ -1,0 +1,40 @@
+{
+  "name": "@ts-livedata/react",
+  "version": "0.0.0-alpha01",
+  "description": "A TypeScript LiveData library with React Hooks",
+  "author": "Brendan Goldberg",
+  "license": "Apache-2.0",
+  "private": false,
+  "keywords": [
+    "LiveData",
+    "TypeScript",
+    "Observer Pattern",
+    "React",
+    "React Hooks"
+  ],
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "prebuild": "rimraf build",
+    "build": "tsc && npm run copypackage",
+    "copypackage": "cp -t build package.json README.md LICENSE",
+    "release": "npm run build && npm run test && cd build && npm publish --access public"
+  },
+  "dependencies": {
+    "@ts-livedata/core": "^0.0.0-alpha07"
+  },
+  "devDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "@testing-library/react": "^10.4.7",
+    "@types/chai": "^4.2.11",
+    "@types/jest": "^26.0.5",
+    "chai": "^4.2.0",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.3",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
