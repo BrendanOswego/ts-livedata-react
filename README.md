@@ -1,11 +1,12 @@
 ## TS LiveData React Library
+[![CircleCI](https://img.shields.io/circleci/project/github/BrendanOswego/ts-livedata-react/master.svg)](https://circleci.com/gh/BrendanOswego/ts-livedata-react/tree/master)
 
 ### About
 Observer pattern based library for React, similar to Android's [LiveData](https://developer.android.com/topic/libraries/architecture/livedata).
 
 For information on the Observer pattern please visit [Wikipedia](https://en.wikipedia.org/wiki/Observer_pattern#:~:text=The%20observer%20pattern%20is%20a,calling%20one%20of%20their%20methods.).
 
-Includes `@ts-livedata/core` separately to reduce dependency trees.
+Includes [@ts-livedata/core](https://www.npmjs.com/package/@ts-livedata/core) separately to reduce dependency trees.
 
 ### Installation
 ```javascript
