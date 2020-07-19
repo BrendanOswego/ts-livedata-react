@@ -88,6 +88,7 @@ export const View = () => {
 ```
 ```typescript jsx
 // View.spec.tsx
+
 import {expect} from "chai"
 import {renderHook} from "@testing-library/react-hooks"
 import {ViewModel} from "./View"
