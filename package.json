@@ -1,6 +1,6 @@
 {
   "name": "@ts-livedata/react",
-  "version": "0.0.0-alpha01",
+  "version": "0.0.0-alpha02",
   "description": "A TypeScript LiveData library with React Hooks",
   "author": "Brendan Goldberg",
   "license": "Apache-2.0",
