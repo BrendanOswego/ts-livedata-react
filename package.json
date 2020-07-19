@@ -1,9 +1,13 @@
 {
   "name": "@ts-livedata/react",
-  "version": "0.0.0-alpha03",
+  "version": "0.1.0-alpha01",
   "description": "A TypeScript LiveData library with React Hooks",
   "author": "Brendan Goldberg",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brendangoldberg/ts-livedata-react.git"
+  },
   "private": false,
   "keywords": [
     "LiveData",
