@@ -10,7 +10,8 @@
     "TypeScript",
     "Observer Pattern",
     "React",
-    "React Hooks"
+    "React Hooks",
+    "@ts-livedata"
   ],
   "scripts": {
     "test": "jest",
